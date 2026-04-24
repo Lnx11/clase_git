@@ -20,6 +20,7 @@ luego, borrar carpeta oculta git, y luego volver a iniciar el repositorio con `g
 
 git status para saber en que estado estan los archivos. git add para agregar archivos. git commit -m "mensaje" para confirmar los cambios. git push origin main para subir los cambios al repositorio remoto en GitHub. git log --oneline para saber el mensaje de cada commit. git log para saber toda la info completa.
 git show y el codigo obtenido de log --oneline para saber que cambios se hicieron en cada commit. git diff para ver que se modifica.
+git add . para guardar pequeños pasos en el mismo lugar. De caso contrario se debe guardar completo. Tambien siempre es add/status/commit -m y quizas push la final.
 
 # Status de archivos:
 - Untracked: archivos que no están siendo rastreados por Git.
@@ -27,5 +28,6 @@ git show y el codigo obtenido de log --oneline para saber que cambios se hiciero
 - Modified: archivos que han sido modificados desde el último commit pero aún no han sido confirmados.
 - Staged: archivos que han sido modificados y están listos para ser confirmados en el próximo commit.
 - Committed: archivos que han sido confirmados en el historial de versiones de Git.
+
 
 
