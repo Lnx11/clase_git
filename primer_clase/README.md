@@ -18,7 +18,8 @@ La carpeta .git no debe borrarse ya que es donde guarda cada version.
 si aparece (master) usar en CMD git config --global init.defaultBranch main
 luego, borrar carpeta oculta git, y luego volver a iniciar el repositorio con `git init`. Siempre antes de empezar a codear.
 
-git status para saber en que estado estan los archivos. git add para agregar archivos. git commit -m "mensaje" para confirmar los cambios. git push origin main para subir los cambios al repositorio remoto en GitHub.
+git status para saber en que estado estan los archivos. git add para agregar archivos. git commit -m "mensaje" para confirmar los cambios. git push origin main para subir los cambios al repositorio remoto en GitHub. git log --oneline para saber el mensaje de cada commit. git log para saber toda la info completa.
+git show y el codigo obtenido de log --oneline para saber que cambios se hicieron en cada commit. git diff para ver que se modifica.
 
 # Status de archivos:
 - Untracked: archivos que no están siendo rastreados por Git.
