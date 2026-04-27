@@ -28,6 +28,7 @@ procedimiento: git add + archivo. git commit. ctrl + o + enter para guardar. ctr
 
 
 ### Creando ramas:
+    git branch > feature/rama_nueva. crea la rama pero no cambia a ella.
     git switch -c feature/nombre_rama. crea y cambia a la nueva rama.
 
     git branch -av para ver donde estamos parados.
