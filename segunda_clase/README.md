@@ -36,3 +36,6 @@ procedimiento: git add + archivo. git commit. ctrl + o + enter para guardar. ctr
     para salir de ramas, git switch main. para volver a la rama principal.
 
     lo demas funciona igual en cuanto a guardar cambios, hacer commit, etc.
+
+    Fast/forward merge: es un tipo de fusión que ocurre cuando la rama de destino no ha tenido ningún cambio desde que se creó la rama de origen. En este caso, git simplemente mueve el puntero de la rama de destino hacia adelante para incluir los cambios de la rama de origen, sin necesidad de crear un nuevo commit de fusión.
+    git merge feature/ramas. para fusionar la rama secundaria con la rama principal. Si no hay conflictos, se realizará un fast/forward merge automáticamente. Si hay conflictos, git indicará que se deben resolver antes de completar la fusión.
