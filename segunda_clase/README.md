@@ -9,3 +9,15 @@ se crea el archivo .gitignore dentro de la raíz del proyecto, y se agregan las 
 
 git branch -av para saber como esta actualizado.
 git log --oneline para ver el historial de commits de forma resumida.
+
+# .gitkeep
+Ayuda a git a versionar carpetas que queiro que sean parte del repo, pero estan vacias. Creado por la comunidad, no es un archivo oficial de git. Se crea un archivo vacío llamado .gitkeep dentro de la carpeta vacía que se desea versionar. De esta manera, git reconocerá la carpeta y la incluirá en el repositorio, incluso si no contiene ningún archivo.
+
+# branches o ramas:
+
+las ramas permiten trabajar en diferentes versiones del proyecto de forma simultánea. La rama principal se llama "main" o "master", y es la rama donde se encuentra la versión estable del proyecto. Las ramas secundarias se crean a partir de la rama principal para desarrollar nuevas funcionalidades, corregir errores o experimentar sin afectar la versión estable. Una vez que el trabajo en una rama secundaria está completo, se puede fusionar (merge) con la rama principal para integrar los cambios realizados.
+
+### Listar ramas:
+    git branch. locales
+    git branch -r. remotas
+    git branch -av. ambas
