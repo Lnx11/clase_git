@@ -21,3 +21,5 @@ las ramas permiten trabajar en diferentes versiones del proyecto de forma simult
     git branch. locales
     git branch -r. remotas
     git branch -av. ambas
+
+para agragar descripcion de commits, se puede usar git commit solo.
