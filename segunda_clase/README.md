@@ -22,4 +22,16 @@ las ramas permiten trabajar en diferentes versiones del proyecto de forma simult
     git branch -r. remotas
     git branch -av. ambas
 
-para agragar descripcion de commits, se puede usar git commit solo.
+para agragar descripcion de commits, se puede usar git commit solo. ctrl + o para guardar y ctrl + x para salir del editor de texto.
+
+procedimiento: git add + archivo. git commit. ctrl + o + enter para guardar. ctrl + x para salir.
+
+
+### Creando ramas:
+    git switch -c feature/nombre_rama. crea y cambia a la nueva rama.
+
+    git branch -av para ver donde estamos parados.
+    git log para ver que rama estoy.
+    para salir de ramas, git switch main. para volver a la rama principal.
+
+    lo demas funciona igual en cuanto a guardar cambios, hacer commit, etc.
